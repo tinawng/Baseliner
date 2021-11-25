@@ -8,5 +8,22 @@ html {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
 
-  font-family: "Roboto";
+  font-family: "Suisse Intl";
+  @apply font-semibold;
+}
+
+h1 {
+  @apply text-10xl portrait:text-5xl leading-none;
+}
+h2 {
+  @apply text-2xl portrait:text-lg;
+}
+
+@font-face {
+  font-family: 'Suisse Intl';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+       url('../../static/fonts/SuisseIntl-SemiBold-WebXL.woff2') format('woff2');
 }

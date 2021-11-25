@@ -14,7 +14,7 @@ module.exports = {
         }
       },
       fontSize: {
-        '2xs': '.65rem',
+        '10xl': '10rem',
       },
       height: {
         'fit': 'fit-content',
@@ -26,6 +26,9 @@ module.exports = {
       },
       zIndex: {
         '-1': '-1',
+      },
+      screens: {
+        'portrait': { 'raw': '(orientation: portrait)' },
       }
     }
   },

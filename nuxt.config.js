@@ -33,8 +33,6 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/dotenv',
-    '@nuxt/http'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -79,5 +77,9 @@ export default {
         return ['script', 'style'].includes(type)
       }
     }
+  },
+  
+  server: {
+    host: "0.0.0.0"
   }
 }
