@@ -5,11 +5,11 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Tina Nuxt/Tailwind Template',
+    title: 'Baseline Generator',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Tina Nuxt/Tailwind Template' }
+      { hid: 'description', name: 'description', content: 'Baseline Generator' }
     ],
     htmlAttrs: {
       lang: 'en'
@@ -64,10 +64,6 @@ export default {
         }
       }
     },
-    // 🚨 Uncomment only if encounter layout style leaks
-    // splitChunks: {
-    //   layouts: true
-    // }
   },
 
   render: {
