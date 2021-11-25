@@ -86,7 +86,7 @@ export default {
 }
 .refresh_button {
   @apply w-20;
-  @apply cursor-pointer;
+  @apply cursor-pointer select-none;
 }
 .spint_it {
   animation: spin .5s ease-in-out 1;
