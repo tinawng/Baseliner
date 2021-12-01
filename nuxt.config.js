@@ -5,11 +5,18 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Baseline Generator',
+    title: 'Baseliner',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Baseline Generator' }
+      { hid: 'description', name: 'description', content: 'Baseline Generator' },
+      
+      { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:site_name', name: 'og:site_name', property: 'og:site_name', content: 'Baseliner' },
+      { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'Powerful Algorithmic Generator' },
+      { hid: 'og:description', name: 'og:description', property: 'og:site_name', content: 'Powerful algorithmic baseline generator for any range of product' },
+      { hid: 'og:url', name: 'og:url', property: 'og:url', content: 'https://baseliner.tina.cafe/' },
+      { hid: 'og:image', name: 'og:image', property: 'og:image', content: 'https://baseliner.tina.cafe/preview.jpg' }
     ],
     htmlAttrs: {
       lang: 'en'
