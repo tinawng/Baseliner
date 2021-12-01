@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate --modern",
-    "deploy": "scp -r ./dist siyu:/home/pi/work/static-servers/baseliner"
+    "deploy": "scp -r ./dist siyu:/home/pi/work/static-servers/baseliner && ssh siyu \"(cd /home/pi/work/static-servers/baseliner && yarn compress && pm2 restart 'Baseliner')\""
   },
   "dependencies": {},
   "devDependencies": {
